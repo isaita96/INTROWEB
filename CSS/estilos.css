@@ -1,0 +1,29 @@
+html,body{
+	height:100%;
+}
+body{
+	background: linear-gradient(to right, rgba(89,89,89,1) 0%, rgba(0,0,0,1) 0%, rgba(89,89,89,1) 21%, rgba(102,102,102,1) 26%, rgba(17,17,17,1) 50%, rgba(71,71,71,1) 75%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+}
+h1{
+	color:#FFF000;
+	font-family: 'Kaushan Script', cursive;
+	letter-spacing: 0.1em;
+	text-align:center;
+	text-shadow:0 0.1em 0.5em white;
+
+}
+.galeria{
+	
+	display:flex;
+	justify-content: space-around;
+	margin:0 auto;
+	width:90%;
+}
+.galeria div{
+	filter:grayscale(1);
+
+}
+.galeria div:hover{
+	filter:grayscale(0);
+	
+}
